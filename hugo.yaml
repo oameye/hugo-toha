@@ -1,7 +1,6 @@
 baseURL: https://hugo-toha.github.io
 
-languageCode: bn
-title: "John's Blog"
+title: "Orjan Ameye"
 
 # Use Hugo modules to add theme
 module:
@@ -25,11 +24,7 @@ languages:
     languageName: English
     title: "John's Blog"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+
 # default language for the content
 defaultContentLanguage: en
 
@@ -70,7 +65,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/oameye/hugo-toha
   # Default branch of your Git repo
   gitBranch: main
 
@@ -91,8 +86,8 @@ params:
       enable: true
       services:
         light: true # enable light theme. default "true"
-        dark: true # enable dark theme. default "true"
-        default: system # can be either light, dark or system. default "system"
+        dark: false # enable dark theme. default "true"
+        default: light # can be either light, dark or system. default "system"
 
     # Enable and configure portfolio
     portfolio:
@@ -197,7 +192,7 @@ params:
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
-      enable: true
+      enable: false
       # # If you want to use different country flag for a language, specify them here.
       # flagOverwrites:
       #   - languageCode: en
@@ -209,7 +204,7 @@ params:
 
     # Enable this to create flowcharts using shortcodes.
     flowchart:
-      enable: true
+      enable: false
       services:
         # Uncomment for `mermaid` shortcode.
         mermaid:
@@ -257,7 +252,7 @@ params:
 
     # Enable to use `video-player` shortcode
     videoPlayer:
-      enable: true
+      enable: false
       services:
         # convert .js-player class into video player via https://plyr.io/
         # Can play HTML5 Video, Audio, Youtube, Vimeo.
