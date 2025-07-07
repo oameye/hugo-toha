@@ -1,4 +1,4 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://oameye.github.io/
 
 title: "Orjan Ameye"
 
@@ -22,7 +22,7 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Orjan Ameye"
     weight: 1
 
 # default language for the content
@@ -96,15 +96,15 @@ params:
     # Enable and configure blog posts
     blog:
       enable: true
-      showAuthor: true # shows the author of post (defaults true)
+      showAuthor: false # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
-        facebook: true
-        twitter: true
-        linkedin: true
-        reddit: true
-        whatsapp: true
-        email: true
+        facebook: false
+        twitter: false
+        linkedin: false
+        reddit: false
+        whatsapp: false
+        email: false
         # tumblr: true
         # pocket: true
         # diaspora: true
@@ -217,19 +217,20 @@ params:
       services:
         # https://katex.org/docs/autorender.html#api for more configurations
         katex:
-          delimiters:
-            - left: $$
-              right: $$
-              display: true
-            - left: \\[
-              right: \\]
-              display: true
-            - left: $
-              right: $
-              display: false
-            - left: \\(
-              right: \\)
-              display: false
+          # delimiters:
+          #   - left: $$
+          #     right: $$
+          #     display: true
+          #   - left: \\[
+          #     right: \\]
+          #     display: true
+          #   - left: $
+          #     right: $
+          #     display: false
+          #   - left: \\(
+          #     right: \\)
+          #     display: false
+          
 
     # Enable to use custom syntax highlight
     # Please note, Hugo comes with it's own html based syntax highlighter.
