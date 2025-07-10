@@ -78,8 +78,12 @@ $$ \left[\frac{-\hbar^{2}}{2 m} \nabla^{2}+V(\mathbf{r})\right] \psi(\mathbf{r})
 Let us use the lattice spacing $a$ and the corresponding recoil energy $E_r = \pi^2\hbar^2/2ma^2$ as the space and energy units, respectively, such that we have
 
 $$
-\left[\frac{-\hbar^2}{2mE_ra^2} \tilde{\nabla}^{2}+\frac{V(\mathbf{\tilde{r}})}{E_r}\right] \psi(\mathbf{\tilde{r}})
-= \left[\frac{-1}{\pi^2} \tilde{\nabla}^{2}+\tilde{V}_{0} \sum_{k=1}^{4} \cos^{2}\left(\tilde{\mathbf{G}}^{k} \cdot \tilde{\mathbf{r}}\right)\right] \psi(\mathbf{\tilde{r}}) = \tilde{E}\psi(\mathbf{\tilde{r}}),
+\left[\frac{-\hbar^2}{2 m E_ra^2} \tilde{\nabla}^{2}+\frac{V(\mathbf{\tilde{r}})}{E_r}\right] \psi(\mathbf{\tilde{r}})
+= \left[
+  \frac{-1}{\pi^2} \tilde{\nabla}^{2}+\tilde{V}_{0} \sum^4_k \cos^{2}\left(\tilde{\mathbf{G}}^{k} \cdot \tilde{\mathbf{r}}\right)
+\right]
+\psi(\mathbf{\tilde{r}})
+= \tilde{E}\psi(\mathbf{\tilde{r}}),
 $$
 
 where $|\tilde{\mathbf{G}}_{k}|=\pi$, $\tilde{\mathbf{r}} = \frac{\mathbf{r}}{a}$, and $\tilde{E}=\frac{E}{E_r}$.
