@@ -1,12 +1,12 @@
 ---
 title: "Diagonalising 2D Schrödinger Equation"
 date: "2022-03-28T00:00:00Z"
-description: The eigenfunctions of the time independent Schrödinger equation are numerically computed by discretising with the finite difference method and using exact diagonalisation of sparse matrices.
+summary: The eigenfunctions of the time independent Schrödinger equation are numerically computed by discretising with the finite difference method and using exact diagonalisation of sparse matrices.
 menu:
   sidebar:
     name: Ground state eigenfunctions
     identifier: eigenfunctions
-    parent: sub-category
+    # parent: sub-category
     weight: 10
 hero: featured.png
 tags:
