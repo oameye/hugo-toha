@@ -37,15 +37,15 @@ socialLinks:
 
 - name: Google Scholar
   icon: "fab fa-google-scholar"
-  url: "#"
+  url: "https://scholar.google.com/citations?user=nitynJ4AAAAJ&hl=en&oi=ao"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/orjanameye/"
 
 - name: Orcid
   icon: "fab fa-orcid"
-  url: "#"
+  url: "https://orcid.org/0000-0001-7082-7300"
 
 # - name: Facebook
 #   icon: "fab fa-facebook"

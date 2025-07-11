@@ -12,71 +12,117 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
+- name: "Parametric phenonena"
+  filter: "parametric"
+- name: "Floquet"
+  filter: "Floquet"
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
+- title: Floquet expansion by counting pump photons
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Phys. Rev. Lett. 134, 060401
+    date: 10 Feb 2025
+    url: https://doi.org/10.1103/PhysRevLett.134.060401
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Kilian Seibold
+    url: https://scholar.google.com/citations?user=LYsw3mgAAAAJ&hl=en
+  - name: Orjan Ameye
+    url: https://oameye.github.io/
+  - name: Oded Zilberberg
+    url: https://www.zilberberg.uni-konstanz.de/home/
   paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+    summary: A new framework for describing periodically driven quantum systems that counts drive photons, providing better performance than standard Floquet approaches and extending beyond the rotating wave approximation to correct multiphoton resonance positions.
+    url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.060401
+  categories: ["Floquet"]
+  tags: ["Floquet Expansion"]
 
-- title: An Sample Paper on Image Processing
+- title: Biased Ising Model Using Two Coupled Kerr Parametric Oscillators with External Force
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Phys. Rev. Lett. 132, 207401 
+    date: 17 May 2024
+    url: https://doi.org/10.1103/PhysRevLett.132.207401
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Pablo Álvarez
+    url: https://www.linkedin.com/in/p-adominguez/
+  - name: Davide Pittilini
+  - name: Filippo Miserocchi
+  - name: Sathyanarayanan Raamamurthy
+  - name: Gabriel Margiani
+    url: https://orcid.org/0000-0001-7953-7908
+  - name: Orjan Ameye
+    url: https://oameye.github.io/
+  - name: Javier del Pino
+    url: https://jdelpino.github.io/
+  - name: Oded Zilberberg
+    url: https://www.zilberberg.uni-konstanz.de/home/
+  - name: Alexander Eichler
+    url: https://spin.ethz.ch/
   paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
+    summary: This study explores the control of coupled Kerr parametric oscillators (KPOs) networks under external force, demonstrating how the force influences the system's configuration, akin to a magnetic field biasing a spin ensemble. The findings provide a method to create Ising machines with arbitrary bias, extending to cases unachievable in real spin systems.
     url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
+  categories: ["parametric"]
+  tags: ["Parametric phenonema", Ising Machine]
 
-- title: An Example Paper on Security
+- title: Sideband attraction via internal resonance in a multimode membrane as a mechanism for frequency combs
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: arXiv:2409.15138
+    date: 23 Sep 2024
+    url: https://doi.org/10.48550/arXiv.2409.15138
   authors:
-  - name: Dr. Madman
+  - name: Mengqi Fu
     url: https://example.com
-  - name: Dr. Lessmad
+  - name: Orjan Ameye
     url: https://example.com
-  - name: Dr. Moremad
+  - name: Fan Yang
     url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Jan Košata
+  - name: Javier del Pino
+    url: https://jdelpino.github.io/
+  - name: Oded Zilberberg
+    url: https://www.zilberberg.uni-konstanz.de/home/
+  - name: Elke Scheer
   paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+    summary: We study how a driven low-frequency mode couples with an undriven high-frequency mode in a membrane system, creating phononic frequency combs through limit cycles. Using a pump-noisy-probe technique, we show that blue-detuned sidebands attract to the high mode and merge at Hopf bifurcations, revealing the microscopic origin of frequency comb formation with applications in sensing and phononic metamaterials.
+    url: https://doi.org/10.48550/arXiv.2501.08793
+  categories: []
+  tags: ["Time crystal", "Level attraction"]
+
+
+- title: The parametric instability landscape of coupled Kerr parametric oscillators
+  publishedIn:
+    name: arXiv:2501.08793
+    date: 15 Jan 2025
+    url: https://doi.org/10.48550/arXiv.2501.08793
+  authors:
+  - name: Orjan Ameye
+    url: https://oameye.github.io/
+  - name: Alexander Eichler
+    url: https://spin.ethz.ch/
+  - name: Oded Zilberberg
+    url: https://www.zilberberg.uni-konstanz.de/home/
+  paper:
+    summary: We study networks of coupled Kerr parametric oscillators (KPOs) and map their stability regions using secular perturbation theory. Starting with two coupled KPOs, we show how bifurcations arise from competition between parametric drive and linear coupling. We extend this to larger all-to-all coupled networks, finding that bifurcation transitions become uniformly spaced in the thermodynamic limit. Our results define the precise bounds where KPO networks behave like Ising models, providing guidance for experimental implementation.
+    url: https://doi.org/10.48550/arXiv.2501.08793
+  categories: ["parametric"]
+  tags: ["Parametric phenonema", "Ising Machine", "Floquet Expansion"]
+
+- title: Three strongly coupled Kerr parametric oscillators forming a Boltzmann machine
+  publishedIn:
+    name: arXiv:2504.04254
+    date: 4 April 2025
+    url: https://arxiv.org/abs/2504.04254
+  authors:
+  - name: Gabriel Margiani
+    url: https://orcid.org/0000-0001-7953-7908
+  - name: Orjan Ameye
+    url: https://oameye.github.io/
+  - name: Oded Zilberberg
+    url: https://www.zilberberg.uni-konstanz.de/home/
+  - name: Alexander Eichler
+    url: https://spin.ethz.ch/
+  paper:
+    summary: We demonstrate how three strongly coupled Kerr parametric oscillators (KPOs) can simulate Ising Hamiltonians and estimate ground states using Boltzmann sampling. The work addresses challenges in KPO networks where complex phase diagrams can produce unsuitable states for analog optimization, providing a pathway for classical analog computation with relevance to quantum coherent state systems.
+    url: https://arxiv.org/abs/2504.04254
+  categories: ["parametric"]
+  tags: ["Parametric phenonema", "Ising Machine", "Large deviations"]
